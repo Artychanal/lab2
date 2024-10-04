@@ -1,0 +1,57 @@
+table,
+th,
+td {
+    border-collapse: collapse;
+}
+
+table {
+    width: 100%;
+    min-height: 95vh;
+    margin-top: calc(5vh / 2);
+    table-layout: fixed;
+}
+
+td {
+    padding: 10px;
+}
+
+.blue {
+    border: 1px solid #000;
+    background: #c7d9f1;
+}
+
+.green {
+    border: 1px solid #000;
+    background: #e9f2dd;
+    text-align: left;
+    vertical-align: top;
+}
+
+.orange {
+    border: 1px solid #000;
+    background: #fce9da;
+    text-align: left;
+    vertical-align: top;
+}
+
+.white {
+    border: 1px solid #000;
+    text-align: left;
+    vertical-align: top;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+img {
+    width: 30px;
+    height: 30px; 
+    transition: transform 0.3s ease;
+}
+
+img :hover{
+    transform: scale(1.2); 
+}
